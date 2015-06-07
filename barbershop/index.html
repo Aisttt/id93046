@@ -2,10 +2,189 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8">
-    <title>Заголовок страницы</title>
+    <title>Барбершоп «Бородинский»</title>
     <link href="css/style.css" rel="stylesheet">
   </head>
   <body>
-    <!-- Основная разметка -->
+  <header class="main-header">
+      <div class="container clearfix">
+        <nav class="main-navigation">
+          <ul>
+            <li class="active">
+              <a href="#">Главная</a>
+            </li>
+            <li>
+              <a href="#">Информация</a>
+            </li>
+            <li>
+              <a href="#">Новости</a>
+            </li>
+            <li>
+              <a href="text.html">Прайс-лист</a>
+            </li>
+            <li>
+              <a href="#">Магазин</a>
+            </li>
+            <li>
+              <a href="#">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="user-block">
+          <a href="#" class="login">Вход</a>
+        </div>
+      </div>
+    </header>
+
+    <div class="container">
+	    <h1>Главный заголовок страницы</h1>
+	    <ul class="breadcrumbs">
+			 <li><a href="#">Главная</a></li>
+			 <li><a href="#">Магазин</a></li>
+			 <li>Средства для ухода</li>
+		</ul>
+		
+		<div class="clearfix">
+			<form method="post" action="input5.php">
+				<h2>Производители</h2>
+				    <input type="checkbox" id="ch1" value="a1" checked>
+            <label for="ch1">Baxter of California</label>
+				    <input type="checkbox" name="ch2" value="a2">
+            <label for="ch2">Mr Natty</label>
+				    <input type="checkbox" name="ch3" value="a3" checked>
+            <label for="ch3">Suavencito</label>
+				    <input type="checkbox" name="ch4" value="a4">
+            <label for="ch4">Malin+Goetz</label>
+				    <input type="checkbox" name="ch5" value="a5">
+            <label for="ch5">Murray's</label>
+				    <input type="checkbox" name="ch6" value="a6" checked>
+            <label for="ch6">American crew</label>
+			    <h2>Производители</h2>
+			 	    <input type="radio" name="rd1" value="b1" checked>
+            <label for="rd1">Бритвенные принадлежности</label>
+		  		  <input type="radio" name="rd2" value="b2">
+            <label for="rd2">Средства для ухода</label>
+				    <input type="radio" name="rd3" value="b3">
+            <label for="rd3">Аксессуары</label>
+			      <input type="submit" value="Показать">
+			</form>
+		 
+			<div class="goods">
+				<div class="good">
+					<div class="good-image">
+						<img src="http://placehold.it/150x100">
+					</div>
+					<h2 class="good-text">
+						Набор для путешествий
+            <span>Baxter of California</span>
+					</h2>
+          <div class="price">
+            <div class="price-value">2 900руб.</div>
+            <a href="#" class="price-button">Купить</a>      
+          </div>
+				</div>
+
+        <div class="good">
+          <div class="good-image">
+            <img src="http://placehold.it/150x100">
+          </div>
+          <h2 class="good-text">
+            Увлажняющий кондиционер
+            <span>Baxter of California</span>
+          </h2>
+          <div class="price">
+            <div class="price-value">750руб.</div>
+            <a href="#" class="price-button">Купить</a>      
+          </div>
+        </div>
+
+        <div class="good">
+          <div class="good-image">
+            <img src="http://placehold.it/150x100">
+          </div>
+          <h2 class="good-text">
+            Гель для волос
+            <span>Sauvecito</span>
+          </h2>
+          <div class="price">
+            <div class="price-value">290руб.</div>
+            <a href="#" class="price-button">Купить</a>      
+          </div>
+        </div>
+
+        <div class="good">
+          <div class="good-image">
+            <img src="http://placehold.it/150x100">
+          </div>
+          <h2 class="good-text">
+            Глина для укладки волос
+            <span>Averican crew</span>
+          </h2>
+          <div class="price">
+            <div class="price-value">500руб.</div>
+            <a href="#" class="price-button">Купить</a>      
+          </div>
+        </div>
+
+        <div class="good">
+          <div class="good-image">
+            <img src="http://placehold.it/150x100">
+          </div>
+          <h2 class="good-text">
+            Гель для волос
+            <span>Averican crew</span>
+          </h2>
+          <div class="price">
+            <div class="price-value">300руб.</div>
+            <a href="#" class="price-button">Купить</a>      
+          </div>
+        </div>
+
+        <div class="good">
+          <div class="good-image">
+            <img src="http://placehold.it/150x100">
+          </div>
+          <h2 class="good-text">
+            Набор для бритья
+            <span>Baxter of California</span>
+          </h2>
+          <div class="price">
+            <div class="price-value">3 900руб.</div>
+            <a href="#" class="price-button">Купить</a>      
+          </div>
+        </div>
+				
+
+				<ul class="page-number">
+					<li><a href="#">1</a></li>
+					<li>2</li>
+					<li><a href="#">3</a></li>
+					<li><a href="#">4</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+	 <footer class="main-footer">
+     	<div class="container clearfix">
+        	<section class="footer-contacts">
+	         	Барбершоп «Бородинский»<br>
+	         	Адрес: г. Санкт-Петербург, Б. Конюшенная, д. 19/8<br>
+	         	<a href="#">Как нас найти?</a><br>
+	          	телефон: +7 (495) 666-02-66
+        	</section>
+       		<section class="footer-social">
+	          	<p>Давайте дружить!</p>
+	         	<a href="#" class="social-btn social-btn-vk">Вконтакте</a>
+	         	<a href="#" class="social-btn social-btn-fb">Фейсбук</a>
+	         	<a href="#" class="social-btn social-btn-inst">Инстаграм</a>
+       		</section>
+       		<section class="footer-copyright">
+          		<p>Рфзработано:</p>
+          		<a href="#" class="btn">htmlacademy.ru</a>
+        	</section>
+      	</div>
+    </footer>
+  </form>
   </body>
 </html>
