@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>Седона</title>
+    <link href="css/style.css" rel="stylesheet">
+  </head>
+  <body>
+    <header class="main-header">
+      <div class="container clearfix">
+        <nav class="main-navigation">
+          <ul>
+            <li>
+              <a href="#">Информация</a>
+            </li>
+            <li>
+              <a href="#">Фото и видео</a>
+            </li>
+            <li class="logo">
+              <a href="#"></a>
+            </li>
+            <li>
+              <a href="#">Ката штата</a>
+            </li>
+            <li>
+              <a href="#">Гостиницы</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <div class="container">
+      <div class="filters">
+        <form method="post" action="input5.php">
+          <div class="infrastructure">Инфрастуктура
+            <input type="checkbox" id="ch1" checked>
+            <label for="ch1">Бассейн</label>
+            <input type="checkbox" id="ch2">
+            <label for="ch2">Парковка</label>
+            <input type="checkbox" id="ch3">
+            <label for="ch3">Wi-fi</label>
+          </div>
+          <div class="type-of-housing">Тип жилья
+            <input type="checkbox" id="ch1" checked>
+            <label for="ch1">Гостниница</label>
+            <input type="checkbox" id="ch2" checked>
+            <label for="ch2">Мотель</label>
+            <input type="checkbox" id="ch3" checked>
+            <label for="ch3">Апартаменты</label>
+          </div>
+        </form>
+
+        <div class="cost"> Стоимость в сутки (р):
+          <label for="sl1">От 0</label>
+          <label for="sl2">До 3000</label>
+          <input type="slider" id="sl1">
+          <input type="slider" id="sl2">
+          <a href="#" class="button">Показать</a>
+        </div>
+      </div>
+
+      <div class="result">
+        <h1>Найдено:3</h1>
+        <span>Сортировка</span>
+        <nav class="result-sort">
+          <ul>
+            <li>
+              По цене
+            </li>
+            <li>
+              <a href="#">По типу</a>
+            </li>
+            <li>
+              <a href="#">По рейтингу</a>
+            </li>
+            <li class="last">
+            	<a href="#" class="arrow"></a>
+            	<a href="#" class="arrow"></a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+        		
+
+     <div class="motel-section clearfix">
+     	<figure class="motel-image">
+     		<img >
+     	</figure>
+     </div>
+
+
+  	<div class="clearfix">
+      <div class="box">
+        <h3>Настоящий городок</h3>
+        <span class="number-box">№ 1</span>
+        <p>Седона не атракцион для туристов<br>там течет своя жизнь</p>
+      </div>
+      <div class="box">
+        <img src="http://placehold.it/150x100">
+      </div>
+      <div class="box">
+        <img src="http://placehold.it/150x100">
+      </div>
+      <div class="box-two">
+        <img src="http://placehold.it/150x100">
+        <h3>Жильё</h3>
+        <p>Рекомендуем пожить в настоящий мотеле, все как в кино!</p>
+      </div>
+      <div class="box-two">
+        <img src="http://placehold.it/150x100">
+        <h3>Еда</h3>
+        <p>Всегда заказывай фирменный бергер вы не разочаруетесь!</p>
+      </div>
+      <div class="box-two">
+        <img src="http://placehold.it/150x100">
+        <h3>Сувениры</h3>
+        <p>Не только китайского, но и местного производства</p>
+      </div>
+      <div class="box">
+        <img src="http://placehold.it/150x100">
+      </div>
+      <div class="box">
+        <img src="http://placehold.it/150x100">
+      </div>
+      <div class="box">
+        <h3>Там есть мостдьявола</h3>
+        <span class="number-box">№ 2</span>
+        <p>Да, по нему можнопройти! Если конечно вы осмелитесь</p>
+      </div>
+      <div class="box-four">
+        <h3>Небольшая площадь</h3>
+        <span class="number-box">№ 3</span>
+        <p>Все достопримечательности находятся очень близко</p>
+      </div>
+      <div class="box-four">
+        <h3>Красивая дорога</h3>
+        <span class="number-box">№ 4</span>
+        <p>Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
+      </div>
+      <div class="box-four">
+        <h3>Мало туристов</h3>
+        <span class="number-box">№ 5</span>
+        <p>Большинство едет в Град Каньон и толпится там</p>
+      </div>
+    </div>
+  		
+    <div class="search-form-title">
+      <h3>Заинтересовались?</h3>
+      <p>Укажите предполагаемые дты поездки и мы покажем вам лучшие предложения гостиниц в Cедоне</p>
+      <div class="button-register">
+        <a href="#">Поиск гостиницы в Седоне</a>
+      </div>
+    </div>
+
+    <form method="post" action="input5.php">
+      <label for="d1">Дата заезда:</label>
+      <input type="date" id="d1">
+      <label for="d2">Дата выезда:</label>
+      <input type="date" id="d2">
+      <label for="adults">Взрослые</label>
+      <div class="number" id="adults">
+          <span class="minus">-</span>
+          <input type="text" value="2"/>
+          <span class="plus">+</span>
+      </div>
+      <label for="children">Дети</label>
+      <div class="number" id="children">
+          <span class="minus">-</span>
+          <input type="text" value="0"/>
+          <span class="plus">+</span>
+      </div>
+      <div class="button-find">
+        <a href="#">Найти</a>
+      </div>
+    </form>
+
+    <div class="map">
+      <img src="http://placehold.it/150x100">
+    </div>
+
+	  <footer class="main-footer">
+     	<div class="container clearfix">
+      	<section class="footer-hashtag">
+         	#Visitsedona
+      	</section>
+     		<section class="footer-social">
+         	<a href="#" class="social-btn social-btn-vk">Вконтакте</a>
+         	<a href="#" class="social-btn social-btn-fb">Фейсбук</a>
+         	<a href="#" class="social-btn social-btn-inst">Инстаграм</a>
+     		</section>
+     		<section class="footer-copyright">
+        		<p>Website by:</p>
+        		<a href="#"><img src="http://placehold.it/150x100"></a>
+      	</section>
+      </div>
+    </footer>
+  </body>
+</html>
