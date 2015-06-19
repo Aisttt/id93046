@@ -13,18 +13,11 @@ ul{
   position: relative;
 }
 
-.fon-logo{
+.logo{
 	position: absolute;
 	left:50%;
 	margin-left: -69px;
 	z-index: 2;
-}
-
-.logo-img{
-	position: absolute;
-	left:50%;
-	margin-left: -34px;
-	z-index: 3;
 }
 
 .main-navigation{
@@ -61,11 +54,17 @@ ul{
 }
 
 .promo{
-  min-height: 600px;
+  min-height: 508px;
   background: url("../img/background-intro.jpg") no-repeat center top;
   -webkit-background-size: cover;
   background-size: cover;
   position: relative;
+}
+
+.promo img{
+  padding-top: 76px;
+  padding-left: 50%;
+  margin-left: -227px;
 }
 
 .promo::after{
@@ -80,42 +79,77 @@ ul{
   background-size: 100% 57px;
 }
 
-.promo-name img:nth-child(1){
-  position: absolute;
-  top: 132px;
-  left: 50%;
-  margin-left: -94px;
-  z-index: 3;
+.promo-text h1{
+  margin-top: 105px; /*Правильно ли тут?*/
+  font-size: 21px;
+  line-height: 26px;
+  font-family: "PT Sans";
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
 }
 
-.promo-name img:nth-child(2){
-  position: absolute;
-  top: 188px;
-  left: 50%;
-  margin-left: -87px;
-  z-index: 3;
+.promo-text p{
+  margin-top: 40px; /*Правильно ли тут?*/
+  margin-bottom: 58px;
+  font-size: 14px;
+  line-height: 26px;
+  font-family: "PT Sans";
+  color: rgb(51, 51, 51);
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
 }
 
-.promo-name img:nth-child(3){
-  position: absolute;
-  top: 200px;
-  left: 50%;
-  margin-left: -128px;
-  z-index: 3;
+.features{
+  float: left;
+  background-color: rgb(129, 179, 210);
+  color: rgb(243, 227, 251);
+  width: 33.3%;
+  height: 256px;
+  text-align: center;
 }
 
-.promo-name img:nth-child(4){
-  position: absolute;
-  top: 270px;
-  left: 50%;
-  margin-left: -227px;
-  z-index: 3;
+
+.features-image{
+  width: 100%; /*Почему тут 100%?*/
+  height: 256px;
 }
 
-.promo-name img:nth-child(5){
-  position: absolute;
-  top: 404px;
-  left: 50%;
-  margin-left: -155px;
-  z-index: 3;
+.features-ico-1{
+  height: 330px;
+  color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
 }
+
+.features-ico-2{
+  height: 330px;
+  color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
+}
+
+.features-ico-3{
+  height: 330px;
+  color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
+}
+
+.features-image:nth-child(2){
+/*  float: left;*/
+}
+
+.features-ico-4{
+  color: rgb(0, 0, 0);
+  background-color: rgb(238, 238, 238);
+}
+
+
+
+
+
+
+
+
+
+
