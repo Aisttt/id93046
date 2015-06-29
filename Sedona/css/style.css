@@ -105,7 +105,7 @@ ul{
 .features{
   float: left;
   background-color: rgb(129, 179, 210);
-  color: rgb(243, 227, 251);
+  color: rgb(255, 255, 255);
   width: 33.3%;
   height: 256px;
   text-align: center;
@@ -135,13 +135,22 @@ ul{
   background-color: rgb(255, 255, 255);
 }
 
+.features-image-two{
+  float: left;
+  width: 66.6%;
+  height: 256px;
+}
+
 .features-ico-4{
   color: rgb(0, 0, 0);
   background-color: rgb(238, 238, 238);
 }
 
-.features-image:nth-child(2){
+.search-form-title{
   float: left;
+  height: 291px;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
 }
 
 .search-form-title h1{
@@ -156,6 +165,108 @@ ul{
   color: rgb(51, 51, 51);
   text-align: center;
 }
+
+.search-form-title h2{
+  margin-top: 58px;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  font-size: 30px;
+  line-height: 26px;
+  font-family: "PT Sans";
+}
+
+.search-form-title p{
+  margin-top: 41px;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  font-size: 14px;
+  line-height: 24px;
+  font-family: "PT Sans";
+}
+.search-form-title a{
+  text-decoration: none;
+  position: absolute;
+  display: block;
+  width: 568px;
+  left: 50%;
+  margin-left: -284px;
+  margin-top: 53px;
+  padding-top: 35px;
+  height: 51px;
+  background-color: rgb(118, 99, 87);
+}
+
+.button-register{
+  font-size: 21px;
+  font-family: "PT Sans";
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.238;
+  text-align: center;
+}
+
+.map-container{
+  float: left;
+  height: 593px;
+  border: 3px solid green;
+}
+
+.map-container>img{
+  position: relative;
+  width: 100%;
+  z-index: 1;
+  /*height: 593px;*/
+}
+
+.main-footer{
+  position: relative;
+  height: 120px;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  opacity: 0.902;
+  padding-bottom: 0px;
+  z-index: 2;
+}
+
+.footer-hashtag{
+  position: relative;
+  float: left;
+  left: 9%;
+  margin-top: 51px;
+  font-size: 21px;
+  font-family: "PT Sans";
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  line-height: 1.238;
+}
+
+.footer-social{
+  position: absolute;
+  left: 50%;
+  margin-left: -76px;
+  margin-top: 36px;
+}
+
+.footer-copyright{
+  position: relative;
+  float: right;
+  right: 9%;
+  margin-top: 42px;
+}
+
+/*Вторая страница*/
+
+.filter-form{
+  background: url("../img/background-two.jpg") no-repeat center top;
+  height: 217px;
+}
+
+.infrastructure{
+  color: rgb(255, 255, 255);
+  margin-left: 6%;
+}
+
 
 
 
